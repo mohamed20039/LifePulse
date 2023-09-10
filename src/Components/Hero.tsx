@@ -16,21 +16,21 @@ const Hero = () => {
           </Button>
         </Link>
         <h1 className="text-2xl text-white mt-5 font-semibold	">Requirments </h1>
-        <div className="grid grid-cols-3 gap-8 ">
-        <div className="w-[200px] shadow-xl flex  p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-white">
+        <div className="lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-6 max-w-[1240px] mx-auto grid  my-2">
+        <div className="w-[200px]  shadow-xl flex  p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-white">
           
           <ul  className="text-black  text-left mx-5 mt-5">
-            <li><span className="font-bold">Age:</span> Typically 17 years or older.</li>
+            <li><span className="font-bold">Age:</span> Typically 16 years or older.</li>
 
           </ul>
         </div>
-        <div className="w-[200px] shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-black">
+        <div className="w-[200px]  shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-black">
           
           <ul  className="text-white  text-left mx-5 mt-5">
       <li><span className="font-bold">Weight:</span> Usually a minimum of 50 kilograms (110 pounds).</li>
           </ul>
         </div>
-        <div className="w-[200px] shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-white">
+        <div className="w-[200px]  shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300 bg-white">
           
           <ul  className="text-black  text-left mx-5 mt-5">
 
