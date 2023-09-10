@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div className="flex justify-center items-center  text-center">
-      <div className="mt-[150px]">
+      <div className="mt-[130px]">
         <h1 className="text-4xl font-bold">Donate your Blood</h1>
         <p className="w-[600px] text-xl mt-3">
           Blood donation is the act of voluntarily giving blood, either whole
