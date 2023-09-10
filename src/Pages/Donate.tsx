@@ -11,7 +11,7 @@ const Donate_Page = () => {
         Donate any Hospital You want
       </h1>
 
-      <div className="grid grid-cols-3 gap-4 max-w-[1120px] mx-auto my-2">
+      <div className=" lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-4 max-w-[1240px]  mx-auto grid  my-2">
         {information.map((info) => (
           <Donate info={info} />
         ))}
