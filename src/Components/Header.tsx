@@ -9,7 +9,7 @@ const Header = () => {
           {" "}
           <h1 className="mt-3">LifePulse 🩸</h1>
         </a>
-        <Link to="/donate">
+        <Link to="donate">
           <Button color="primary" variant="solid" className="mt-3">
             Donor
           </Button>

@@ -10,7 +10,7 @@ const Hero = () => {
           Blood donation is the act of voluntarily giving blood, either whole
           blood or specific blood components, to be used for medical purposes.
         </p>
-        <Link to="/donate">
+        <Link to="donate">
           <Button color="primary" variant="solid" className="mt-4">
             Donor
           </Button>
